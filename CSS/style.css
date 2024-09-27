@@ -1,0 +1,74 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.menu-button {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-button:hover + .dropdown, .dropdown:hover {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.dropdown li {
+    padding: 10px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td img {
+    width: 50px;
+}
