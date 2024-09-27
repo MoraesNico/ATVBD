@@ -40,7 +40,7 @@
                     echo "<td>" . $row['preco'] . "</td>";
                     echo "<td>" . $row['descricao'] . "</td>";
                     echo "<td>" . $row['codigo_barra'] . "</td>";
-                    echo "<td><img src='img/" . $row['imagem'] . "' width='50'></td>";
+                    echo "<td><img src='img/" . $row['imagem'] . "' width='100'></td>";
                     echo "<td>" . $row['setor'] . "</td>";
                     echo "<td>
                             <a href='editar.php?id=" . $row['id'] . "'>Editar</a> |
@@ -56,5 +56,7 @@
             ?>
         </tbody>
     </table>
+
+    <a href="index.php" class="voltar-button">Voltar</a>
 </body>
 </html>

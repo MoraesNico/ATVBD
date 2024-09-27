@@ -38,5 +38,7 @@
 
         <button type="submit">Registrar</button>
     </form>
+
+    <a href="index.php" class="voltar-button">Voltar</a>
 </body>
 </html>
